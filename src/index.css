@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  background-color: #323f59;
+}
+
+:root {
+  --color-secondary-bg: #323f59;
+  --color-secondary-bg-light: #848c9b;
+  --color-secondary-bg-dimmed: #47597c;
+  --color-main-bg: #f7f8fb;
+  --color-bg-white: #fff;
+  --color-main-text: #323f59;
+  --color-main-text-light: #323f59;
+  --color-main-text-dimmed: #323f59;
+  --color-white: #fff;
+  --main-border-radius: 12px;
+  --shadow-secondary: 0 0 0 2px rgb(50 63 89 / 20%);
+
+  --main-font-family: 'Inter', 'Arial', sans-serif;
+  --main-font-size: 14px;
+  --main-font-weight: 400;
+  --main-line-height: 22px;
+  --secondary-line-height: 20px;
+  --secondary-line-weight: 600;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-black: #000;
+  --color-accent-dark: #0074c2;
+  --color-accent-light: #1084d2;
+  --color-accent-dimmed: #77bff0;
+  --color-primary-dark: #232426;
+  --color-primary-light: #82888d;
+  --color-placeholders: #bbb;
+  --color-line: #e6e6e6;
+  --color-bg: #f2f2f2;
+  --color-bg-success: #cdf2dd;
+  --color-bg-error: #f8d7da;
+  --color-bg-warn: #fff3cd;
+  --color-success: #219653;
+  --color-warn: #f90;
+  --color-error: #f04646;
+  --font-size-lg: 24px;
+  --font-size-md: 20px;
+  --font-size-reg: 16px;
+  --shadow-header: 0 0 4px rgb(0 0 0 / 16%);
+  --shadow-modal: 0 2px 16px rgb(0 0 0 / 24%);
+  --shadow-menu: 0 4px 12px rgb(0 0 0 / 12%);
+  --shadow-body: 0 2px 8px rgb(15 66 101 / 8%);
+}
+
+.dark {
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-black: #000;
+  --color-white: #fefefe;
+  --color-primary-dark: #d6dae1;
+  --color-primary-light: #82888d;
+  --color-placeholders: #bbb;
+  --color-line: #27353e;
+  --color-dark: #101e27;
+  --color-bg: #000e17;
+  --color-bg-success: #cdf2dd;
+  --color-bg-error: #f8d7da;
+  --color-bg-warn: #fff3cd;
+  --color-accent-dark: #0074c2;
+  --color-accent-light: #1084d2;
+  --color-accent-dimmed: #77bff0;
+  --color-success: #219653;
+  --color-warn: #f90;
+  --color-error: #f04646;
+  --shadow-menu: 0 4px 12px rgb(0 0 0 / 40%);
+  --shadow-body: 0 2px 8px rgb(0 0 0 / 86%);
+}
